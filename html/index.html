@@ -35,8 +35,8 @@
 <!--这里打东西就行了，环境已接好-->
 <body>
 <!--banner start-->
-<header class="banner">
-    <div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="banner">
+    <div class="header">
         <div class="container">
             <div class="header-main">
                 <div class="logo wow bounceInLeft" data-wow-delay="0.3s">
@@ -49,7 +49,7 @@
                         <a href="About.html"><span class="res1">About</span></a>
                         <a href="Shortcodes.html"><span class="res1">Shortcodes</span></a>
                         <a href="gallery.html"><span class="res1">Gallery</span></a>
-                        <a href="contact.html"><span class="res1"> Contact</span></a>
+                        <a href="contact.html"><span class="res1">Contact</span></a>
                     </ul>
                     <!-- script-for-menu -->
                     <script>
@@ -74,10 +74,17 @@
             </div>
         </div>
     </div>
-</header>
-    <!--banner end-->
-    <!--awesome start-->
-    <section>
+
+    <!-- 置顶按钮-->
+    <button class="zhiding img-circle" title="置顶" id="scroll">
+        <img src="../images/zhiding.png" class="zhiding_img"/>
+    </button>
+
+</div>
+<!--banner end-->
+<!--awesome start-->
+
+<section>
     <div class="awesome">
         <div class="container">
             <div class="awesome-main">
@@ -165,14 +172,12 @@
                         <div class="size1">
                             <h4>$25</h4>
                         </div>
-
                         <h3>Vanilla</h3>
                     </div>
                     <div class="project-grid pro-medium">
                         <div class="size2">
                             <h4>$50</h4>
                         </div>
-
                         <h3>Choclate</h3>
                     </div>
 
@@ -180,14 +185,12 @@
                         <div class="size3">
                             <h4>$75</h4>
                         </div>
-
                         <h3>ButterScotch</h3>
                     </div>
                     <div class="project-grid pro-very-large">
                         <div class="size4">
                             <h4>$99</h4>
                         </div>
-
                         <h3>Cone</h3>
                     </div>
                     <div class="clearfix"> </div>
@@ -269,6 +272,8 @@
 <script src="../JS/jquery-1.11.3.js"></script>
 <!--5.2-->
 <script src="../dist/js/bootstrap.js"></script>
+
+<script src="../JS/Zhiding.js"></script>
 
 </body>
 
